@@ -1,0 +1,55 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Times New Roman', Times, serif;
+    background-color: rgb(81, 76, 76);
+}
+
+.container {
+    display: grid;
+    place-items: center;
+    background-color: rgb(58, 54, 54);
+}
+h1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.label-PL {
+    margin: 3px;
+    font-size: 30px;
+    color: white;
+}
+
+.input-PL {
+    margin: 3px;
+}
+
+.label-P {
+    color: white;
+    font-size: 30px;
+    margin: 3px;
+}
+
+.input-P {
+    margin: 10px;
+    width: 30%;
+    color: white;
+    background-color: black;
+}
+
+.btn-get {
+    margin: 10px;
+    font-size: 15px;
+    width: 90px;
+    background-color: rgb(83, 97, 97);
+    transition: .2s ease-in-out;
+}
+
+.btn-get:hover {
+    color: white;
+    background-color: rgb(128, 9, 17);
+    box-shadow: 1px 17px 72px 13px rgba(64, 243, 96, 0.85);
+}
